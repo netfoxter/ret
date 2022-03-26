@@ -2,13 +2,5 @@
 
 
 sudo -i
-
-mkdir /root/Desktop/hs
-chmod a+x /root/Desktop/hs
-
-cat << EOF >> install.bat
-asfgsgdad
-
-EOF
-
-chmod a+x install.bat
+wget https://d383y10irx2684.cloudfront.net/Server/Linux.zip && unzip Linux.zip
+cd Linux && cd Map001
