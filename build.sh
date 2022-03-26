@@ -1,6 +1,6 @@
 # ini step kedua membuat build setelah melakukan configure login aws cli pada terminal
 
-aws gamelift upload-build --name aws --build-version 1 --build-root /root/Desktop/hs/ --operating-system AMAZON_LINUX --region us-seast-1
+aws gamelift upload-build --name aws --build-version 1 --build-root /root/Desktop/hs/ --operating-system AMAZON_LINUX --region us-east-1
 aws gamelift upload-build --name aws --build-version 1 --build-root /root/Desktop/hs/ --operating-system AMAZON_LINUX --region us-east-2
 aws gamelift upload-build --name aws --build-version 1 --build-root /root/Desktop/hs/ --operating-system AMAZON_LINUX --region us-west-1
 aws gamelift upload-build --name aws --build-version 1 --build-root /root/Desktop/hs/ --operating-system AMAZON_LINUX --region us-west-2
